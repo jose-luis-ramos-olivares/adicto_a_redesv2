@@ -10,8 +10,7 @@ def scan_addicts2(array)
             results.push 'mal'
         end
     end
-    print results
-    print "\n"
+    return results
 end
 
-scan_addicts2([89, 90, 91, 179, 180, 181])
+print scan_addicts2([89, 90, 91, 179, 180, 181])
